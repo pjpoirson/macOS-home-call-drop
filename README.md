@@ -1,3 +1,5 @@
+Copy of https://github.com/karek314/macOS-home-call-drop
+
 # macOS-home-call-drop
 
 Simple shell script to fix macOS privacy issues and remove mostly useless (at least for me) macOS calls to Cupertino. Great addition to software like Little Snitch. By default it disable useless services, daemons running in background - If you don't use Push Notifications, Spotlight Suggestions or do not like to send your browsing history, bookmarks and more to Apple you should run it. By default the script does not affect iCloud and FindMyMac so if you don't use iCloud you can disable services related to iCloud as well, just edit <b>config.sh</b> to choose which services you want to disable. Most of them are described, uncomment to let script disable it! Comments about agents and daemons are my guesses based on MacOS internal knowledge and research, some may be less accurate than others. I haven't thoroughly checked all of them one by one, so can't know for sure. Please update and make a pull request if you have updates or additions.
